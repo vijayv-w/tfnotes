@@ -94,3 +94,69 @@ resources/global: This has definitions for global resources (eg S3 etc)
 
 vpc: This has all VPC and networking related definitions. Individual
 files should give an idea as to what they do & what definitions they contain.
+
+
+
+References:
+
+I have listed some useful links. I would suggest going thru this in order it is listed. 
+
+ 
+
+First to get some feel for it and the na bit more advanced concepts.
+
+ 
+
+https://www.terraform.io/intro/index.html
+
+ 
+
+ 
+
+Especially pay close attention to series of blogs by gruntwork (start from 1 and go till 6 or 7 articles) or the book (same content) : Terraform Up & Running.
+
+ 
+
+https://blog.gruntwork.io/why-we-use-terraform-and-not-chef-puppet-ansible-saltstack-or-cloudformation-7989dad2865c
+
+ 
+
+http://shop.oreilly.com/product/0636920061939.do
+
+ 
+
+ 
+
+Next the other more advanced/corner case links.
+
+ 
+
+https://operator-error.com/2017/02/21/managing-iam-policy-documents-in-hcl-with-terraform/
+
+ 
+
+https://medium.com/@petey5000/petes-terraform-tips-694a3c4c5169
+
+ 
+
+ 
+
+https://medium.com/@brikis98/to-be-honest-im-not-a-huge-fan-of-workspaces-there-are-two-main-reasons-for-this-fbe5bf1eab23
+
+ 
+
+ 
+
+https://blog.gruntwork.io/5-lessons-learned-from-writing-over-300-000-lines-of-infrastructure-code-36ba7fadeac1
+
+ 
+
+https://itnext.io/things-i-wish-i-knew-about-terraform-before-jumping-into-it-43ee92a9dd65
+
+ 
+
+https://medium.com/@hbarcelos/how-i-learnt-to-love-and-hate-terraform-in-the-past-few-weeks-db085d012882
+
+ 
+
+ 

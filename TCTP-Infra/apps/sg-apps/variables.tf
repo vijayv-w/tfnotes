@@ -9,3 +9,5 @@ variable "tags" {
   default     = {}
 }
 
+variable "NAMEHERE_alb_security_group_id" {
+}

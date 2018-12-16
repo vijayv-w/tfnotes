@@ -14,8 +14,3 @@ resource "aws_alb_listener" "NAMEHERE_alb_listener" {
   // TODO
 
 }
-
-resource "aws_security_group" "NAMEHERE_alb_sg" {
-  // TODO
-
-}

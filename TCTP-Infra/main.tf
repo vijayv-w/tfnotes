@@ -82,6 +82,14 @@ module "sg_apps" {
   // TODO
 }
 
+// Define all lambdas
+module "NAMEHERE_lambda" {
+  source                        = "./resources/shared/lambda/NAMEHERE_lambda"
+  tag_name                      = "${var.tag_name}"
+  // TODO
+}
+
+
 
 // Define all the apps in these modules (in our case perhaps all microservices will
 // be listed here and individual definitions in each module. ie 1 module per microservice)
